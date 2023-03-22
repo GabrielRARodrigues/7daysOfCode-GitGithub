@@ -1,99 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Filmes</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <main>
-    <h2>Filmes Populares</h2>
-    <div class="input-container">
-      <input type="text" name="movie-name" id="movie-name" placeholder="Digite algum filme para pesquisar...">
-      <img src="images/search-icon.svg" alt="Ícone de pesquisa" class="searchIcon">
-    </div>
-    <div class="showOnlyFavorites">
-      <input type="checkbox" name="onlyFavorites" id="onlyFavorites">
-      <label for="onlyFavorites">Mostrar apenas meus filmes favoritos</label>
-    </div>
-    <div class="movies">
-      <div class="movie">
-        <div class="movie-informations">
-          <div class="movie-image">
-            <img src="https://img.elo7.com.br/product/original/3FBA809/big-poster-filme-batman-2022-90x60-cm-lo002-poster-batman.jpg" alt="Batman (2022)"/>
-          </div>
-          <div class="movie-text">
-            <h4>Batman (2022)</h4>
-            <div class="rating-favorites">
-              <div class="rating">
-                <img src="images/star.png" alt="Star Icon"/>
-                <span>9.2</span>
-              </div>
-              <div class="favorite">
-                <img src="images/heart.svg" alt="Star Icon"/>
-                <span>Favoritar</span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filmes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h2>Filmes Populares</h2>
+      <div class="input-container">
+        <input
+          type="text"
+          name="movie-name"
+          id="movie-name"
+          placeholder="Digite algum filme para pesquisar..."
+        />
+        <img
+          src="images/search-icon.svg"
+          alt="Ícone de pesquisa"
+          class="searchIcon"
+        />
+      </div>
+      <div class="showOnlyFavorites">
+        <input type="checkbox" name="onlyFavorites" id="onlyFavorites" />
+        <label for="onlyFavorites">Mostrar apenas meus filmes favoritos</label>
+      </div>
+      <div class="movies">
+        <div class="movie">
+          <div class="movie-informations">
+            <div class="movie-image">
+              <img
+                src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/8aIvm8OaJISOpVTt7rMIh7X35G5.jpg"
+                alt="Batman (2022)"
+              />
+            </div>
+            <div class="movie-text">
+              <h4>O Rei Leão (1994)</h4>
+              <div class="rating-favorites">
+                <div class="rating">
+                  <img src="images/star.png" alt="Star Icon" />
+                  <span>8.5</span>
+                </div>
+                <div class="favorite">
+                  <img src="images/heart.svg" alt="Star Icon" />
+                  <span>Favoritar</span>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="movie-description">
-          <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>
-        </div>
-      </div>
-
-      <div class="movie">
-        <div class="movie-informations">
-          <div class="movie-image">
-            <img src="https://img.elo7.com.br/product/original/3FBA809/big-poster-filme-batman-2022-90x60-cm-lo002-poster-batman.jpg" alt="Batman (2022)"/>
+          <div class="movie-description">
+            <span
+              >Mufasa, o Rei Leão, e a rainha Sarabi apresentam ao reino o
+              herdeiro do trono, Simba. O recém-nascido recebe a bênção do sábio
+              babuíno Rafiki, mas ao crescer é envolvido nas artimanhas de seu
+              tio Scar, o invejoso e maquiavélico irmão de Mufasa, que planeja
+              livrar-se do sobrinho e herdar o trono.</span
+            >
           </div>
-          <div class="movie-text">
-            <h4>Batman (2022)</h4>
-            <div class="rating-favorites">
-              <div class="rating">
-                <img src="images/star.png" alt="Star Icon"/>
-                <span>9.2</span>
-              </div>
-              <div class="favorite">
-                <img src="images/heart.svg" alt="Star Icon"/>
-                <span>Favoritar</span>
+        </div>
+        <div class="movie">
+          <div class="movie-informations">
+            <div class="movie-image">
+              <img
+                src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/n4JYFyfsNoxMYVpSYqNbBsb6sKm.jpg"
+                alt="A Voz do Silêncio (2016)"
+              />
+            </div>
+            <div class="movie-text">
+              <h4>A Voz do Silêncio (2016)</h4>
+              <div class="rating-favorites">
+                <div class="rating">
+                  <img src="images/star.png" alt="Star Icon" />
+                  <span>8.1</span>
+                </div>
+                <div class="favorite">
+                  <img src="images/heart.svg" alt="Star Icon" />
+                  <span>Favoritar</span>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="movie-description">
-          <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>
-        </div>
-      </div>
-
-      <div class="movie">
-        <div class="movie-informations">
-          <div class="movie-image">
-            <img src="https://img.elo7.com.br/product/original/3FBA809/big-poster-filme-batman-2022-90x60-cm-lo002-poster-batman.jpg" alt="Batman (2022)"/>
+          <div class="movie-description">
+            <span
+              >Nishimiya Shouko é uma estudante com deficiência auditiva.
+              Durante o ensino fundamental, após se transferir para uma nova
+              escola, Shouko passa a ser alvo de bullying e em pouco tempo
+              precisa se transferir. O que ela não esperava é que alguns anos
+              depois, Ishida Shouya, um dos valentões que tanto a fez sofrer no
+              passado surgisse de novo em sua vida com um novo propósito.</span
+            >
           </div>
-          <div class="movie-text">
-            <h4>Batman (2022)</h4>
-            <div class="rating-favorites">
-              <div class="rating">
-                <img src="images/star.png" alt="Star Icon"/>
-                <span>9.2</span>
-              </div>
-              <div class="favorite">
-                <img src="images/heart.svg" alt="Star Icon"/>
-                <span>Favoritar</span>
+        </div>
+        <div class="movie">
+          <div class="movie-informations">
+            <div class="movie-image">
+              <img
+                src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ybQSBSrINtjWsJQ6Ih8sva8HlEZ.jpg"
+                alt="Homem-Aranha: No Aranhaverso (2018)"
+              />
+            </div>
+            <div class="movie-text">
+              <h4>Homem-Aranha: No Aranhaverso (2018)</h4>
+              <div class="rating-favorites">
+                <div class="rating">
+                  <img src="images/star.png" alt="Star Icon" />
+                  <span>8.4</span>
+                </div>
+                <div class="favorite">
+                  <img src="images/heart.svg" alt="Star Icon" />
+                  <span>Favoritar</span>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="movie-description">
-          <span>Lorem Ipsum is simply Lar dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>
+          <div class="movie-description">
+            <span
+              >Miles Morales é um jovem negro do Brooklyn que se tornou o
+              Homem-Aranha inspirado no legado de Peter Parker, já falecido.
+              Entretanto, ao visitar o túmulo de seu ídolo em uma noite chuvosa,
+              ele é surpreendido com a presença do próprio Peter, vestindo o
+              traje do herói aracnídeo sob um sobretudo. A surpresa fica ainda
+              maior quando Miles descobre que ele veio de uma dimensão paralela,
+              assim como outras variações do Homem-Aranha.</span
+            >
+          </div>
         </div>
       </div>
-    </div>
-  </main>
-</body>
+    </main>
+  </body>
 </html>
